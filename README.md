@@ -1,0 +1,2 @@
+# Insider-Market-Trend-Correlation-Analytics-Forecasting-with-ML
+End-to-end analytics pipeline turning SEC Form 4–style insider activity into event-driven signals for JPM. Builds an actionable event_day (timing-realistic), runs reaction vs drift event studies, segments by magnitude/regime/role, and benchmarks classification/regression with walk-forward validation. Streamlit dashboard for interactive insights.
