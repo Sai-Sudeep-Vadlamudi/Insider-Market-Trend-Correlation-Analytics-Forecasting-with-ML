@@ -34,5 +34,12 @@ Repository structure :
 
 
 
+This repository implements a complete pipeline for analyzing and operationalizing insider filing activity as an event-driven signal for JPMorgan. The project integrates insider transactions (Form 4–style disclosures) with daily OHLCV data and places heavy emphasis on timing realism: filings are anchored to an actionable event_day rather than naïvely using the trade date, which improves interpretability and avoids hindsight-driven conclusions.
+
+The exploratory phase builds a market micro-narrative around insider events by decomposing returns into two components: reaction on the event day (capturing how the market responds when the filing becomes tradable) and drift over the following sessions (capturing whether effects persist). The analysis includes segmentation by magnitude buckets (Top 5%, 5–20%, Bottom 80%), regime context, and role/insider attribution so the results can be understood both statistically and operationally.
+
+The modeling phase extends the event study into forecasting tasks (classification and regression) evaluated under walk-forward validation with sequential folds. The goal is not to claim deterministic price prediction, but to test whether an insider-informed feature set can improve ranking/triage under realistic out-of-sample evaluation. Results are exported as reproducible artifacts and surfaced through a Streamlit dashboard for interactive exploration, inspection of high-impact event days, and review of model stability across time windows.
+
+Overall, the repository demonstrates full-stack analytics work: raw data cleaning, event alignment, signal engineering, rigorous time-series evaluation, and stakeholder-ready delivery through a lightweight app.
 
 
