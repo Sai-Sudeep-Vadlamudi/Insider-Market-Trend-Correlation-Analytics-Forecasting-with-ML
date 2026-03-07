@@ -24,9 +24,6 @@ Repository structure :
 
 <img width="653" height="426" alt="{45CB6218-17E7-4DA1-BE83-17E799905BAC}" src="https://github.com/user-attachments/assets/665b71d4-082a-4819-af7c-7b1ffb93b225" />
 
-├─ Data Quality & Cleaning.ipynb
-├─ Exploratory Analysis + Event Study.ipynb
-├─ ML (classification + regression) with walk-forward evaluation.ipynb
-├─ JPM Insider.xlsx
-└─ JPMorgan Stock Price History.xlsx
+
+
 
