@@ -340,7 +340,7 @@ with right:
 # -----------------------------
 # Tabs
 # -----------------------------
-tabs = st.tabs(["Explorer", "Event Study", "ML Results", "Case Studies", "My Insights"])
+tabs = st.tabs(["Explorer", "Event Study", "ML Results", "Case Studies", "The Story & My Insights"])
 
 # -----------------------------
 # Tab: Explorer
