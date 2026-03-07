@@ -22,25 +22,11 @@ I anchor insider events to information availability rather than hindsight. Filin
 
 Repository structure :
 
-Insider-Market Trend Co-relation with ML/
-├─ app/
-│  ├─ app.py
-│  └─ App tunnel.ipynb
-├─ cleaned & processed/
-│  ├─ cleaned/
-│  └─ processed/
-│     ├─ jpm_insider_clean.csv
-│     └─ jpm_prices_clean.csv
-├─ eda_outputs/
-│  ├─ event_study_table.csv
-│  ├─ insider_signal_with_event_day.csv
-│  ├─ insider_summary_min5events.csv
-│  └─ master_daily_event_aligned.csv
-├─ ml_outputs/
-│  ├─ walk_forward_metrics.csv
-│  └─ walk_forward_summary_mean.csv
+<img width="653" height="426" alt="{45CB6218-17E7-4DA1-BE83-17E799905BAC}" src="https://github.com/user-attachments/assets/665b71d4-082a-4819-af7c-7b1ffb93b225" />
+
 ├─ Data Quality & Cleaning.ipynb
 ├─ Exploratory Analysis + Event Study.ipynb
 ├─ ML (classification + regression) with walk-forward evaluation.ipynb
 ├─ JPM Insider.xlsx
 └─ JPMorgan Stock Price History.xlsx
+
