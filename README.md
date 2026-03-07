@@ -1,5 +1,10 @@
 Insider-Market Trend Correlation Analytics & Forecasting with ML
 
+
+You can access the Interactive dashboard to explore insider event-days, market reaction vs drift, and walk-forward ML stability results here :
+live Demo link : https://insider-market-trend-correlation-analytics-forecasting-with-ml.streamlit.app/
+
+
 Event-Driven Insider Intelligence • SEC Form 4 Signal Engineering • Event Study (Reaction vs Drift) • Walk-Forward ML Validation • Streamlit Decision Dashboard
 
 
@@ -41,5 +46,6 @@ The exploratory phase builds a market micro-narrative around insider events by d
 The modeling phase extends the event study into forecasting tasks (classification and regression) evaluated under walk-forward validation with sequential folds. The goal is not to claim deterministic price prediction, but to test whether an insider-informed feature set can improve ranking/triage under realistic out-of-sample evaluation. Results are exported as reproducible artifacts and surfaced through a Streamlit dashboard for interactive exploration, inspection of high-impact event days, and review of model stability across time windows.
 
 Overall, the repository demonstrates full-stack analytics work: raw data cleaning, event alignment, signal engineering, rigorous time-series evaluation, and stakeholder-ready delivery through a lightweight app.
+
 
 
