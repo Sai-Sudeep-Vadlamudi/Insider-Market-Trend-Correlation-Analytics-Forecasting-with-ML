@@ -304,7 +304,7 @@ with left:
     st.markdown(
         """
 **What this dashboard shows**
-- **Event day** = the first trading day where a Form 4 filing is assumed “tradable” (your filing-time rule).
+- **Event day** = the first trading day where a Form 4 filing is assumed “tradable” .
 - We compare **event-day reaction** and **post-event drift**, and then test whether ML can forecast forward returns using **walk-forward** evaluation.
         """
     )
@@ -330,7 +330,7 @@ with left:
         st.info("No events in current filters. Try lowering the threshold or selecting more buckets.")
 
 with right:
-    st.markdown("**Best ML models (from your walk-forward summary):**")
+    st.markdown("**Best ML models :**")
     if best_models:
         for task, (model, metric, val) in best_models.items():
             st.write(f"- `{task}` → **{model}** ({metric} = {val:.4f})")
