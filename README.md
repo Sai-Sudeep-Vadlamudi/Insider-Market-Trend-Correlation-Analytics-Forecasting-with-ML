@@ -15,22 +15,6 @@ live Demo link : https://insider-market-trend-correlation-analytics-forecasting-
 
 ---
 
-## Executive Abstract
-
-Public insider filings are information-rich, but in raw form they are noisy, delayed, difficult to operationalize, and often misinterpreted. Most naïve analyses commit a fundamental methodological error: they anchor the signal to the trade date rather than to the point at which the information becomes **publicly actionable**.
-
-This project addresses that problem by constructing a **timing-realistic `event_day`**, thereby transforming insider activity into a more credible and decision-relevant market signal. From there, the repository builds an end-to-end quantitative workflow that:
-
-- converts **Form 4–style insider transactions** into an actionable event layer
-- integrates those events with **historical OHLCV market data**
-- measures **immediate market reaction** versus **subsequent drift**
-- segments results by **magnitude**, **regime**, and **insider-role context**
-- benchmarks **classification and regression models** under **walk-forward evaluation**
-- surfaces outputs through an **interactive research and storytelling dashboard**
-
-The resulting system is best understood as a **quantitative research prototype**, **financial analytics platform**, and **decision-support artifact** in one.
-
----
 
 ## High level overview of Exploratory Analytics Application Hosted on Streamlit
 
@@ -49,6 +33,23 @@ The resulting system is best understood as a **quantitative research prototype**
 ### Case Studies
 ![WhatsApp Image 2026-03-09 at 11 03 48 PM (6)](https://github.com/user-attachments/assets/46c4c7c7-e241-4113-84b1-1f9a56743e6b)
 
+
+---
+
+## Executive Abstract
+
+Public insider filings are information-rich, but in raw form they are noisy, delayed, difficult to operationalize, and often misinterpreted. Most naïve analyses commit a fundamental methodological error: they anchor the signal to the trade date rather than to the point at which the information becomes **publicly actionable**.
+
+This project addresses that problem by constructing a **timing-realistic `event_day`**, thereby transforming insider activity into a more credible and decision-relevant market signal. From there, the repository builds an end-to-end quantitative workflow that:
+
+- converts **Form 4–style insider transactions** into an actionable event layer
+- integrates those events with **historical OHLCV market data**
+- measures **immediate market reaction** versus **subsequent drift**
+- segments results by **magnitude**, **regime**, and **insider-role context**
+- benchmarks **classification and regression models** under **walk-forward evaluation**
+- surfaces outputs through an **interactive research and storytelling dashboard**
+
+The resulting system is best understood as a **quantitative research prototype**, **financial analytics platform**, and **decision-support artifact** in one.
 
 ---
 
