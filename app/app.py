@@ -284,7 +284,7 @@ events_f = events_f[
 # -----------------------------
 # Header + Story summary
 # -----------------------------
-st.title("Insider ↔ Market Trend Lab (JPM)")
+st.title("Insider Market Trend Correlation Analytics And Forecasting (JPM)")
 best_models = choose_best_models(ml_summary)
 
 # KPI row
