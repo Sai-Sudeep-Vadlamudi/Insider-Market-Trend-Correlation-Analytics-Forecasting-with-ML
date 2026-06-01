@@ -15,7 +15,6 @@ live Demo link : https://insider-market-trend-correlation-analytics-forecasting-
 
 ---
 
-
 ## High level overview of Exploratory Analytics Application Hosted on Streamlit
 
 ### Explorer
