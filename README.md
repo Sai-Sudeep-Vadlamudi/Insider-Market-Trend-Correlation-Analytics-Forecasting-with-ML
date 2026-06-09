@@ -6,7 +6,7 @@
 
 This repository is a **quantitative data science and market-intelligence project** that operationalizes **insider trading disclosures** into a **timing-aware event-signal framework**, integrates those signals with historical market data, decomposes market behavior into **event-day reaction** and **post-event drift**, and extends the analysis into **walk-forward classification and regression forecasting**.
 
-At its core, this is not a generic “data analytics” exercise. It is a **multi-layered, event-driven quantitative research pipeline** designed to emulate how real-world financial data science work is structured: **raw disclosure ingestion → signal engineering → event alignment → return decomposition → segmentation analysis → out-of-sample forecasting → interactive research delivery**.
+At its core, it is a **multi-layered, event-driven quantitative research pipeline** designed to emulate financial data science in a structured way : **raw disclosure ingestion → signal engineering → event alignment → return decomposition → segmentation analysis → out-of-sample forecasting → interactive research delivery**.
 
 The project uses **JPMorgan insider activity** as the research substrate and packages the resulting workflow into a stakeholder-facing **Streamlit decision interface** for inspection, triage, and interpretability.
 
